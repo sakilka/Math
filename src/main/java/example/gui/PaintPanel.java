@@ -22,13 +22,6 @@ public class PaintPanel extends JComponent {
         drawGraph((Graphics2D) g);
     }
 
-//    public void drawPolygon() {
-//        Graphics g = this.getGraphics();
-//
-//        paintComponent(g);
-//        g.drawPolyline(polygon.xpoints, polygon.ypoints, polygon.npoints);
-//    }
-
     private void paintAxis(Graphics2D g) {
         g.setStroke(new BasicStroke(2));
         g.setColor(Color.black);
